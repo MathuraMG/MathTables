@@ -46,6 +46,11 @@ html,body{
   cursor: pointer;
 }
 
+.change-1 {
+  background: transparent;
+  border: none;
+}
+
 .change-1-text {
   font-size: 3rem;
   padding: 1rem 0;
@@ -54,6 +59,8 @@ html,body{
   font-size: 5rem;
   color: #F7B267;
   margin: 0;
+  background: transparent;
+  border: none;
 }
 .arrow:hover {
   cursor: pointer;
