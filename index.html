@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="./font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+  <div class="container">
+    <div class="heading-container">
+      <h1> Multiplication Tables </h1>
+      <h2 id="number">2 </h2>
+    </div>
+    <div class="button-container-1">
+      <button class="change-1 dec-1" onclick="decreaseOne()">
+        <i class="arrow fa fa-angle-left" aria-hidden="true"></i>
+      </button>
+      <button class="change-1 inc-1" onclick="increaseOne()">
+        <i class="arrow fa fa-angle-right" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="button-container-2">
+      <button class="change-1 dec-1" onclick="decreaseTen()">
+        <i class="arrow fa fa-angle-double-left" aria-hidden="true"></i>
+      </button>
+      <p class="change-1-text"> Shift By Ten </p>
+      <button class=" change-1 inc-1" onclick="increaseTen()">
+        <i class="arrow fa fa-angle-double-right" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <a class="link" target="_blank" href="https://www.youtube.com/watch?v=qhbuKbxJsk8"> Inspired by Mathologer Video </a>
+  </div>
+</body>
+
+</html>
